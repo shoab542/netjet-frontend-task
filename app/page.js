@@ -85,7 +85,7 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 relative">
             {/* Text Content */}
-            <div className="relative lg:translate-x-[102px] z-10 order-2 lg:order-1 mt-8 lg:mt-0">
+            <div className="relative lg:translate-x-[95px] z-10 order-2 lg:order-1 mt-8 lg:mt-0">
               <h1 className="font-bold text-[25px] sm:text-[35px] mt-4 text-white text-center lg:text-left leading-tight">
                 Want to Turn Social Media Into a{" "}
                 <br className="hidden sm:block" /> Profitable Career?
@@ -94,12 +94,13 @@ export default function Home() {
                 className="font-bold text-[25px] sm:text-[35px] text-[#00E7F9] text-center lg:text-left mt-2 leading-tight"
                 style={{
                   textShadow: "0px 4px 4px rgba(252, 0, 78, 1)",
+                  wordSpacing: "-2px"
                 }}
               >
                 Discover your way to success <br className="hidden sm:block" />{" "}
                 with Fametonic:
               </h1>
-           <div className="md:flex md:justify-center lg:justify-start mt-4">
+           <div className="md:flex md:justify-center lg:justify-start mt-4 ">
                <ul className="mt-6 space-y-4">
                 <li className="flex items-start ">
                   <Image
@@ -109,7 +110,7 @@ export default function Home() {
                     height={22}
                     className="mt-0.5 flex-shrink-0"
                   />
-                  <span className="ml-3 text-[16px] text-white">
+                  <span className="ml-3 text-[16px] text-white" style={{wordSpacing: "2px"}}>
                     Start growing your influence right away—no waiting required!
                   </span>
                 </li>
@@ -121,7 +122,7 @@ export default function Home() {
                     height={22}
                     className="mt-0.5 flex-shrink-0"
                   />
-                  <span className="ml-3 text-[16px] text-white">
+                  <span className="ml-3 text-[16px] text-white" style={{wordSpacing: "0.5px"}}>
                     Create viral TikToks and Reels step by step with
                     easy-to-follow <br className="hidden sm:block" /> lessons
                   </span>
@@ -170,7 +171,7 @@ export default function Home() {
                 </p>
               </div>
               <p className="text-xs text-[#ABABAB] mt-6 text-center lg:text-left hidden sm:block">
-                By clicking &quot;Get Started&quot;, you agree with Terms and Conditions,
+                By clicking "Get Started", you agree with Terms and Conditions,
                 Privacy Policy, Subscription <br className="hidden sm:block" />{" "}
                 Terms
               </p>
