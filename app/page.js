@@ -91,69 +91,80 @@ export default function Home() {
                 <br className="hidden sm:block" /> Profitable Career?
               </h1>
               <h1
-                className="font-bold text-[25px] sm:text-[35px] text-[#00E7F9] text-center lg:text-left mt-2 leading-tight"
-                style={{
-                  textShadow: "0px 4px 4px rgba(252, 0, 78, 1)",
-                  wordSpacing: "-2px"
-                }}
+                className="
+    font-bold 
+    text-[25px] sm:text-[35px] 
+    text-[#00E7F9] 
+    text-center lg:text-left 
+    mt-2 
+    leading-tight
+    [text-shadow:0px_4px_4px_rgba(252,0,78,1)]
+    [word-spacing:-2px]
+  "
               >
                 Discover your way to success <br className="hidden sm:block" />{" "}
                 with Fametonic:
               </h1>
-           <div className="md:flex md:justify-center lg:justify-start mt-4 ">
-               <ul className="mt-6 space-y-4">
-                <li className="flex items-start ">
-                  <Image
-                    src="/star.png"
-                    alt="icon"
-                    width={22}
-                    height={22}
-                    className="mt-0.5 flex-shrink-0"
-                  />
-                  <span className="ml-3 text-[16px] text-white" style={{wordSpacing: "2px"}}>
-                    Start growing your influence right away—no waiting required!
-                  </span>
-                </li>
-                <li className="flex items-start">
-                  <Image
-                    src="/star.png"
-                    alt="icon"
-                    width={22}
-                    height={22}
-                    className="mt-0.5 flex-shrink-0"
-                  />
-                  <span className="ml-3 text-[16px] text-white" style={{wordSpacing: "0.5px"}}>
-                    Create viral TikToks and Reels step by step with
-                    easy-to-follow <br className="hidden sm:block" /> lessons
-                  </span>
-                </li>
-                <li className="flex items-start">
-                  <Image
-                    src="/star.png"
-                    alt="icon"
-                    width={22}
-                    height={22}
-                    className="mt-0.5 flex-shrink-0"
-                  />
-                  <span className="ml-3 text-[16px] text-white">
-                    Use a Personal AI Worker to boost your content
-                  </span>
-                </li>
-                <li className="flex items-start">
-                  <Image
-                    src="/star.png"
-                    alt="icon"
-                    width={22}
-                    height={22}
-                    className="mt-0.5 flex-shrink-0"
-                  />
-                  <span className="ml-3 text-[16px] text-white">
-                    Learn from expert-led courses designed for aspiring
-                    influencers
-                  </span>
-                </li>
-              </ul>
-           </div>
+              <div className="md:flex md:justify-center lg:justify-start mt-4 ">
+                <ul className="mt-6 space-y-4">
+                  <li className="flex items-start ">
+                    <Image
+                      src="/star.png"
+                      alt="icon"
+                      width={22}
+                      height={22}
+                      className="mt-0.5 flex-shrink-0"
+                    />
+                    <span
+                      className="ml-3 text-[16px] text-white   [word-spacing:2px]"
+                    >
+                      Start growing your influence right away—no waiting
+                      required!
+                    </span>
+                  </li>
+                  <li className="flex items-start">
+                    <Image
+                      src="/star.png"
+                      alt="icon"
+                      width={22}
+                      height={22}
+                      className="mt-0.5 flex-shrink-0"
+                    />
+                    <span
+                      className="ml-3 text-[16px] text-white"
+                      style={{ wordSpacing: "0.5px" }}
+                    >
+                      Create viral TikToks and Reels step by step with
+                      easy-to-follow <br className="hidden sm:block" /> lessons
+                    </span>
+                  </li>
+                  <li className="flex items-start">
+                    <Image
+                      src="/star.png"
+                      alt="icon"
+                      width={22}
+                      height={22}
+                      className="mt-0.5 flex-shrink-0"
+                    />
+                    <span className="ml-3 text-[16px] text-white">
+                      Use a Personal AI Worker to boost your content
+                    </span>
+                  </li>
+                  <li className="flex items-start">
+                    <Image
+                      src="/star.png"
+                      alt="icon"
+                      width={22}
+                      height={22}
+                      className="mt-0.5 flex-shrink-0"
+                    />
+                    <span className="ml-3 text-[16px] text-white">
+                      Learn from expert-led courses designed for aspiring
+                      influencers
+                    </span>
+                  </li>
+                </ul>
+              </div>
               <div className="flex justify-center lg:justify-start mt-8">
                 <button
                   style={{
