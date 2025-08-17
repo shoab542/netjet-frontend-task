@@ -33,9 +33,9 @@ export default function Home() {
               <Image
                 src="/Group.png"
                 alt="logo"
-                width={173.12}
+                width={173}
                 height={74}
-                className="mx-auto md:ml-[95px] md:mx-0 w-[107.78px] h-[46.07px] md:w-[173.12px] md:h-[74px]"
+                className="mx-auto md:ml-[95px] md:mx-0 w-[108px] h-[46px] md:w-[173px] md:h-[74px]"
               />
             </div>
 
@@ -59,6 +59,7 @@ export default function Home() {
             <button
               className="md:hidden text-[#A9A9A9] focus:outline-none"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
+              aria-label={isMenuOpen ? "Close menu" : "Open menu"}
             >
               <FontAwesomeIcon icon={isMenuOpen ? faTimes : faBars} size="lg" />
             </button>
@@ -91,23 +92,18 @@ export default function Home() {
                 <br className="hidden sm:block" /> Profitable Career?
               </h1>
               <h1
-                className="
-    font-bold 
-    text-[25px] sm:text-[35px] 
-    text-[#00E7F9] 
-    text-center lg:text-left 
-    mt-2 
-    leading-tight
-    [text-shadow:0px_4px_4px_rgba(252,0,78,1)]
-    [word-spacing:-2px]
-  "
+                className="font-bold text-[25px] sm:text-[35px] text-[#00E7F9] text-center lg:text-left mt-2 leading-tight"
+                style={{
+                  textShadow: "0px 4px 4px rgba(252,0,78,1)",
+                  wordSpacing: "-2px",
+                }}
               >
                 Discover your way to success <br className="hidden sm:block" />{" "}
                 with Fametonic:
               </h1>
-              <div className="md:flex md:justify-center lg:justify-start mt-4 ">
+              <div className="md:flex md:justify-center lg:justify-start mt-4">
                 <ul className="mt-6 space-y-4">
-                  <li className="flex items-start ">
+                  <li className="flex items-start">
                     <Image
                       src="/star.png"
                       alt="icon"
@@ -115,9 +111,7 @@ export default function Home() {
                       height={22}
                       className="mt-0.5 flex-shrink-0"
                     />
-                    <span
-                      className="ml-3 text-[16px] text-white   [word-spacing:2px]"
-                    >
+                    <span className="ml-3 text-[16px] text-white" style={{ wordSpacing: "2px" }}>
                       Start growing your influence right away—no waiting
                       required!
                     </span>
@@ -130,10 +124,7 @@ export default function Home() {
                       height={22}
                       className="mt-0.5 flex-shrink-0"
                     />
-                    <span
-                      className="ml-3 text-[16px] text-white"
-                      style={{ wordSpacing: "0.5px" }}
-                    >
+                    <span className="ml-3 text-[16px] text-white" style={{ wordSpacing: "0.5px" }}>
                       Create viral TikToks and Reels step by step with
                       easy-to-follow <br className="hidden sm:block" /> lessons
                     </span>
@@ -182,8 +173,8 @@ export default function Home() {
                 </p>
               </div>
               <p className="text-xs text-[#ABABAB] mt-6 text-center lg:text-left hidden sm:block">
-                By clicking "Get Started", you agree with Terms and Conditions,
-                Privacy Policy, Subscription <br className="hidden sm:block" />{" "}
+                By clicking &quot;Get Started&quot;, you agree with Terms and Conditions,
+                Privacy Policy, Subscription <br className="hidden sm:block" />
                 Terms
               </p>
               <p className="text-[10px] text-[#ABABAB] mt-2 text-center lg:text-left hidden sm:block">
