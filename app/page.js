@@ -170,7 +170,7 @@ export default function Home() {
                 </p>
               </div>
               <p className="text-xs text-[#ABABAB] mt-6 text-center lg:text-left hidden sm:block">
-                By clicking "Get Started", you agree with Terms and Conditions,
+                By clicking &quot;Get Started&quot;, you agree with Terms and Conditions,
                 Privacy Policy, Subscription <br className="hidden sm:block" />{" "}
                 Terms
               </p>
